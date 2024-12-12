@@ -1,0 +1,95 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    background-image: url('/imagens/nave-git.png');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;  /* Fundo claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;  /* Texto escuro para contraste com o fundo claro */
+}
+
+/* Container de login */
+.login-container {
+    background-color: #ffffff;  /* Fundo branco para o container */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);  /* Sombra mais suave */
+    width: 350px;
+    text-align: center;
+    border: 2px solid #ddd;  /* Borda suave e clara */
+}
+
+/* Título */
+h2 {
+    margin-bottom: 30px;
+    color: #5157b6;  
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Estilos dos campos de entrada */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #666;  /* Cor mais suave para o texto */
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;  /* Borda clara */
+    border-radius: 6px;
+    background-color: #f9f9f9;  /* Fundo claro para os campos */
+    color: #333;  /* Texto escuro */
+    outline: none;
+}
+
+.input-group input::placeholder {
+    color: #5157b6;  /* Cor mais suave para o placeholder */
+}
+
+.input-group input:focus {
+    border-color: #564caf;  /* Cor de destaque quando focado */
+}
+
+/* Botão de login */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #5157b6;  /* Cor vibrante de verde */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Mensagem de erro */
+.error-message {
+    color: #f44336;  /* Vermelho para mensagens de erro */
+    font-size: 14px;
+    margin-top: 15px;
+}
